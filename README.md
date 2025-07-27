@@ -130,10 +130,10 @@ void main() {
   hospital.addDepartment(cardiology);
 
   
-  Doctor doctor = Doctor("Dr. Smith", 45, "Doctor", cardiology, "Cardiologist");
+  Doctor doctor = Doctor("Dr. ahmed", 45, "Doctor", cardiology, "Cardiologist");
   hospital.addStaff(doctor);
 
-  Patient patient = Patient("John Doe", 30, "No known allergies");
+  Patient patient = Patient("anan", 30, "No known allergies");
   hospital.registerPatient(patient);
 
   
